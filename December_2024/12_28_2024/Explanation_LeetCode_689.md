@@ -48,11 +48,12 @@ The question also states that if we have multiple subarrays satisfying the condi
 For the above question, there could be another solution possible which is indices `[1, 3, 5]` that still gives the same total sum `23`.  
 However, `[0, 3, 5]` is the lexicographically smallest solution.
 
+
+### Backtracking Solution
+
 A good solution would be to use backtracking. At each index with a subarray of length `k` generated in the array, we have two choices:
 1. **Include the subarray sum in the total sum.**
 2. **Skip the subarray and go for the next subarray sum.**
-
-### Backtracking Solution
 This approach gives the output but involves a time complexity of `O(2^n)` because at each point, we are taking two decisions and sometimes solving the same subproblem multiple times.
 
 ### Optimizing with Caching
