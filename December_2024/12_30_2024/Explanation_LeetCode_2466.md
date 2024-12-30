@@ -74,5 +74,5 @@ remember we need to return the final answer modulo $10^9 + 7$ as it is asked in 
 
 ## Time Complexity
 
-Without optimization (pure recursion), the time complexity would be $O(2^n)$ since there are two choices at each step. With memoization, results are computed only once and reused, reducing the time complexity to $O(n)$, where n is the maximum length (high).
+Without optimization (pure recursion), the time complexity would be $O(2^n)$ since there are two choices at each step. With memoization, results are computed only once and reused, reducing the time complexity to $O(n)$, where n is the maximum length (high)
 
