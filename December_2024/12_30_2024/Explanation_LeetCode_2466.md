@@ -54,11 +54,11 @@ Two Choices at Each Step:
 
 If the length is valid:
 ```python
-count = dfs(reslen + zeroes) + dfs(reslen + ones) + 1
+count = func(reslen + zeroes) + func(reslen + ones) + 1
 ```
 If the length is invalid:
 ```python
-count = dfs(reslen + zeroes) + dfs(reslen + ones)
+count = func(reslen + zeroes) + func(reslen + ones)
 ```
 Base Case:
 
