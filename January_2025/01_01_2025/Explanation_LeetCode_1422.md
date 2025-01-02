@@ -57,7 +57,7 @@ for i in range(len(s)):
 2. Calculate the maximum score:
 
 Traverse the string again, updating the count of 0s and adjusting the count of 1s as we move along.
-At each index, compute the score as \text{zeros_count} + \text{ones_count} and update the maximum score.
+At each index, compute the score as zeros_count + ones_count and update the maximum score.
 
 ```python
 for i in range(len(s) - 1):
