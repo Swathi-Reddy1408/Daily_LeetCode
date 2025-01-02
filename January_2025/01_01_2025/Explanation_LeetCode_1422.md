@@ -15,7 +15,6 @@ s = "011101"
 
 The task is to determine the maximum score obtained by splitting the string at any index. The score is calculated as the sum of the count of 0s on the left side and the count of 1s on the right side of the split. The goal is to find the maximum possible score across all splits.
 
-```
 Example Output:
 ```python
 output = 5
