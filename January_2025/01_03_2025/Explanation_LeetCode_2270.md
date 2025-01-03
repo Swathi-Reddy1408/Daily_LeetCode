@@ -16,7 +16,6 @@ nums = [10,4,-8,7]
 Given an input array nums, the task is to determine the number of valid indices i where we can split the array such that:
 Sum of elements on the left side ≥ Sum of elements on the right side.
 
-```
 Example Output:
 ```python
 output = 2
